@@ -1,3 +1,25 @@
 body {
-    background-color:rgb(255, 0, 255);
+    font-family: "imperial script" ;
+    font-size: 14pt;
+    background-color: #a700fa;
+    color:#0300fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "ballet" ;
+    font-size: 30pt;
+}
+
+header{
+    text-align: center;
+}
+
+#hero, footer{
+    background-color:#d995fa ;
+    color: #5500fa;
+    text-align: center;
+}
+
+#hero img{
+    width: 400px;
 }
