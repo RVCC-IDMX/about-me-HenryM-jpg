@@ -1,13 +1,13 @@
 body {
     font-family: "imperial script" ;
-    font-size: 14pt;
-    background-color: #a700fa;
-    color:#0300fa;
+    font-size: 20pt;
+    background-color: #110071;
+    color:#00d9ff;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "ballet" ;
-    font-size: 30pt;
+    font-size: 36pt;
 }
 
 header{
@@ -15,8 +15,8 @@ header{
 }
 
 #hero, footer{
-    background-color:#d995fa ;
-    color: #5500fa;
+    background-color:#8200c3 ;
+    color: #00d9ff;
     text-align: center;
 }
 
