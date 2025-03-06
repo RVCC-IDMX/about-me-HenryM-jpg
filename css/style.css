@@ -8,11 +8,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "ballet" ;
     font-size: 36pt;
+    text-align: center;
 }
 
 header{
     text-align: center;
 }
+
+/*hero section*/
+
 
 #hero, footer{
     background-color:#8200c3 ;
@@ -24,10 +28,29 @@ header{
     width: 400px;
 }
 
+/*bio section*/
+
 #bio{
     text-align: center;
 }
 
+/*hobbies section*/
+
+
+#hobbies ul li{
+    text-align: left;
+}
+
 #hobbies ul li:nth-child(even){
     color:red;
+}
+
+/*gallery section*/
+
+#gallery{
+    border: 2px solid #8200c3;
+}
+
+#gallery img{
+    max-width: 100%;
 }
