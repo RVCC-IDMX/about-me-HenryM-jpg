@@ -23,3 +23,11 @@ header{
 #hero img{
     width: 400px;
 }
+
+#bio{
+    text-align: center;
+}
+
+#hobbies ul li:nth-child(even){
+    color:red;
+}
