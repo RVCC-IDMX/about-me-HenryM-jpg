@@ -86,6 +86,11 @@ header{
     margin-bottom: 2rem;
 }
 
+#bacon p {
+    max-width: 100%;
+    columns: 20rem;
+}
+
 #bacon div{
     padding: 2rem;
     max-width: 40rem;
@@ -98,10 +103,11 @@ header{
 
 #bacon div p:first-letter{
     color: #fa0067;
+    background-color:#8200c3;
     float: left;
     font-size: 3em;
     padding: .5em;
     line-height: 0.65;
-    border: 1px solid #8200c3;
+    border: 10px solid #ee8bff;
     
 }
