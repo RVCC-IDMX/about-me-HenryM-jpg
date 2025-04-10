@@ -99,6 +99,57 @@
             
         </section>
 
+        <section id = form>
+            <h2>Contact Us</h2>
+            <form id="ContactForm" name="ContactForm" method="post" data-netlify="true">
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <div id="FormElements">
+
+                        <Label for="name">Name (required)</Label>
+                        <input type="text" name="name" id="name" required placeholder="Name">
+
+                        <Label for="email">Email (required)</Label>
+                        <input type="text" name="email" id="email" required placeholder="Email">
+
+                        <Label for="phone">Phone (optional)</Label>
+                        <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+
+                        <Label for="phoneType">Phone Type (optional)</Label>
+                        <select name="phonType" id="phoneType">
+                            <option value="" selected>Select Phone Type</option>
+                            <option value="mobile">Mobile</option>
+                            <option value="work">Work</option>
+                            <option value="home">Home</option>
+                        </select>
+
+                        <Label for="message">Message (optional)</Label>
+                        <textarea id="message" name="message" rows="8" placeholder="Message"></textarea>
+
+                        <fieldset>
+                            <legend>Would You Like a Reply?</legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="message-yes" name="reply" value="yes">
+                                    <label for="message-yes">Yes Yes Yes</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="message-no" name="reply" value="no" checked>
+                                    <label for="message-no">No No No</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+
+                        <button type="submit">SUBMIT</button>
+
+
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+
 
     </main>
         

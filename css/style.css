@@ -104,6 +104,11 @@ header{
     text-align: center;
 }
 
+/* Contact form*/
+#FormElements{
+    display: grid;
+}
+
 /*tablet size*/
 
 @media screen and (min-width: 60em){
