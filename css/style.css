@@ -107,6 +107,51 @@ header{
 /* Contact form*/
 #FormElements{
     display: grid;
+    row-gap: .5em;
+}
+
+#form{
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+fieldset{
+    border: 2px solid #8200c3;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 2rem;
+}
+
+#form input, #form textarea, #form select, #form button{
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#form ul{
+    list-style: none;
+    padding: 0px;
+}
+
+#form li{
+    margin: 1rem;
+}
+
+legend{
+    background-color: #8200c3;
+    color: white;
+    padding: .5em;
+}
+
+#form button{
+    background-color: #8200c3;
+    color: white;
+    border: 1px solid #420063;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+    filter: drop-shadow(15px 5px 10px #2600ff);
+    
 }
 
 /*tablet size*/
