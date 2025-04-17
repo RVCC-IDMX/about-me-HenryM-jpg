@@ -5,7 +5,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "ballet" ;
+    font-family: "black ops one" ;
     font-size: 36pt;
     text-align: center;
 }
@@ -90,15 +90,18 @@ header{
 }
 
 #bacon div p:first-child:first-letter{
-    font-family: "ballet" ;
-    font-weight: bold;
-    color: #fa0067;
-    background-color:#8200c3;
+    font-family: "black ops one" ;
+    
+    background-color:#0a0029;
     float: left;
     font-size: 3em;
-    padding: .25em;
+    padding: 1rem;
     line-height: 0.65;
-    border: 10px solid #ee8bff;
+    border: 3px solid #8200c3;
+    border-radius: 1rem;
+
+    
+
     
 }
 
