@@ -2,6 +2,8 @@ body {
     font-size: 20pt;
     background-color: #110071;
     color:#00d9ff;
+    
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,16 +21,24 @@ header{
 
 /*hero section*/
 
+#hero{
+    background-color:#8200c3 ;
+    
+}
 
 #hero, footer{
-    background-color:#8200c3 ;
     color: #00d9ff;
     text-align: center;
     padding: 1rem;
 }
 
+footer{
+    background-color: #0a0029;
+}
+
 #hero img{
     width: 400px;
+    max-width: 100%;
 }
 
 /*bio section*/
@@ -53,7 +63,7 @@ header{
 }
 
 #hobbies ul li:nth-child(even){
-    color:red;
+    color:#8200c3;
 }
 
 /*gallery section*/
@@ -66,8 +76,16 @@ header{
     max-width: 100%;
 }
 
+#gallery img:hover {
+    filter:grayscale();
+}
+
 #gallery figure{
     text-align: center;
+}
+
+hr {
+    border-color: #8200c3;
 }
 
 /*bacon*/
@@ -103,6 +121,16 @@ header{
     
 
     
+}
+
+#example{
+    padding: 10rem;
+    background-image: url(/img/640w.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: border-box;
+    background-clip: border-box;
 }
 
 /*Embedded video*/
@@ -156,7 +184,7 @@ legend{
     max-width: 400px;
     width: 50%;
     justify-self: center;
-    filter: drop-shadow(15px 5px 10px #2600ff);
+    filter: drop-shadow(0 5px 10px #2600ff);
     
 }
 
