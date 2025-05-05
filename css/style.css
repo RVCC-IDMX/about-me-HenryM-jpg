@@ -77,7 +77,7 @@ footer{
 }
 
 #gallery img:hover {
-    filter:grayscale();
+    filter:invert();
 }
 
 #gallery figure{
